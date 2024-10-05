@@ -23,7 +23,7 @@ label {
   display: block;
 }
 
-input {
+.form-input {
   width: 100%;
   padding: 8px;
   margin-top: 5px;

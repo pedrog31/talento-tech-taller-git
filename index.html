@@ -11,13 +11,18 @@
       <h1>Registro de Mascotas</h1>
       <form id="pet-form">
         <label for="pet-name">Nombre de la Mascota:</label>
-        <input type="text" id="pet-name" required />
+        <input class="form-input" type="text" id="pet-name" required />
 
         <label for="pet-type">Tipo de Mascota:</label>
-        <input type="text" id="pet-type" required />
+        <select class="form-input" name="pet-type" id="pet-type">
+          <option value="perro">Perro</option>
+          <option value="gato">Gato</option>
+          <option value="conejo">Conejo</option>
+          <option value="gallina">Gallina</option>
+        </select>
 
         <label for="pet-age">Edad de la Mascota:</label>
-        <input type="number" id="pet-age" required />
+        <input class="form-input" type="number" id="pet-age" required />
 
         <button type="submit">Registrar Mascota</button>
       </form>
